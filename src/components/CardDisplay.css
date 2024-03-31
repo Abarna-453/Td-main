@@ -1,0 +1,53 @@
+/* SecondCard.css */
+.card-container {
+  display: flex;
+  justify-content: space-between; /* Align to the left */
+  align-items: flex-start;
+  padding: 10px; /* Adjust the padding as needed */
+}
+
+.card {
+  flex: 0.8;
+  width: 45%;
+  margin-right: 3px; /* Adjust the margin as needed for spacing between cards */
+}
+  .card-header {
+    position: relative;
+  }
+  
+  .card-arrows {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+  }
+  
+  .card-arrows > button {
+    background-color: #252422; /* Dark grey color */
+    color: #ffffff; /* White text color */
+    border: none;
+    padding: 5px;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .card-arrows > button:disabled {
+    opacity: 0.5; /* Dim the arrow buttons when disabled */
+  }
+  
+  .card-footer-btn {
+    background-color: #252422; /* Dark grey color */
+    color: #ffffff; /* White text color */
+    border: none;
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .card-footer {
+    background-color: #252422 !important; /* Dark grey color for the "Go somewhere" button */
+    color: white !important; 
+    /* Add styles for card footer if needed */
+  }
+  
